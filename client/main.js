@@ -32,7 +32,7 @@ if (form) {
     }
 
     try {
-      const res = await fetch("http://localhost:5173/api/volunteer", {
+      const res = await fetch("https://jamuna-foundation-landing-page.vercel.app/api/volunteer", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, phone }),
